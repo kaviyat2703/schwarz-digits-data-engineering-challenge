@@ -1,0 +1,14 @@
+README.md
+  h_b2efb286bda226 61-63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "77500ed4eb0e39da2e2402ab98e3b8b1c6a333ac",
+  "prompts": {},
+  "humans": {
+    "h_b2efb286bda226": {
+      "author": "Kaviya T <kaviyat2703@gmail.com>"
+    }
+  }
+}
