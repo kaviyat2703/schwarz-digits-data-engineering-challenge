@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ## Project Overview
 
@@ -61,4 +62,3 @@ Detailed assumptions, design considerations and productionization notes are docu
 docs/assumptions.md
 docs/design.md
 docs/productionization.md
-
