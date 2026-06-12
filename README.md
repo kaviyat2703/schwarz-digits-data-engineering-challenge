@@ -35,7 +35,7 @@ schwarz-digits-data-engineering-challenge/
 │   ├── main.py
 │   ├── schemas.py
 │   ├── transformations.py
-│   └── utils.py
+│  
 │
 ├── tests/
 │   └── test_transformations.py
