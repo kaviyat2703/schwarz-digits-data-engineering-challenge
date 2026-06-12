@@ -8,8 +8,7 @@ The challenge consists of:
 - Category-level aggregations
 - Production readiness considerations
 
-The pipeline follows a  batch ETL flow:Ingest → Transform → Analyze →  <NOTE>
-
+The pipeline follows a  batch ETL flow:Ingest → Transform → Load →  Analyze
 
 ## Data Model
 
