@@ -60,6 +60,7 @@ Examples:
 * Support retries for transient failures.
 * Maintain auditability through logging and metadata.
 * Critical business identifiers are expected to be non-null. In a production environment, additional validation, monitoring and quarantine  mechanisms could be implemented to detect and handle records that violate these constraints.
+* Missing quantities are not automatically defaulted to zero, as null values may indicate data quality issues and should be validated  according to business requirements.
 
 ## Data Retention and Archival - Future Enhancements
 
