@@ -59,6 +59,7 @@ Examples:
 * Handle malformed input data gracefully.
 * Support retries for transient failures.
 * Maintain auditability through logging and metadata.
+* Critical business identifiers are expected to be non-null. In a production environment, additional validation, monitoring and quarantine  mechanisms could be implemented to detect and handle records that violate these constraints.
 
 ## Data Retention and Archival - Future Enhancements
 

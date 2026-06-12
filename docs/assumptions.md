@@ -17,6 +17,8 @@ The version field is assumed to represent the target store metadata over time. R
 Store performance is determined by the total quantity sold for a given product across all transactions.
 When multiple stores qualify for the second position due to equal sales quantities, all qualifying stores are retained.
 
+Ticket quantities are assumed to be valid when present. Missing quantities are not defaulted to zero, as a null value may indicate a data quality issue rather than a true quantity of zero.
+
 Reason: The requirement explicitly refers to total quantity sold and Stores with equivalent performance should be treated equally rather than selecting one randomly.
 
 ## Assumption 4 ##

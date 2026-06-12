@@ -51,6 +51,7 @@ This approach ensures compatibility with TicketLines data as it references store
 The solution is organized into separate modules:
 
 - schemas.py: Explicit Spark schemas for all source datasets.
+- Key business identifiers such as ticket_id, store_id and product_id are defined as non-nullable fields to enforce expected data contracts   and maintain referential integrity across datasets.
 - transformations.py: Reusable business transformations.
 - main.py: Pipeline orchestration, input reading and output writing.
 - tests/: Unit tests for key transformation logic.
