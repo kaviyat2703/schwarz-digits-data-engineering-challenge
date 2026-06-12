@@ -58,9 +58,9 @@ python -m pytest tests
 
 ## Outputs
 output/
-  store_counts
-  second_stores
-  category_stores
+  -store_counts
+  -second_stores
+  -category_stores
 
 ## Assumptions
 - Only stores present in the unified store dataset are considered in downstream calculations.
