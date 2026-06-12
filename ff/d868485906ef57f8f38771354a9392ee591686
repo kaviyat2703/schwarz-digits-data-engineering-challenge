@@ -1,0 +1,20 @@
+src/schemas.py
+  h_b2efb286bda226 11,17,22-24,35
+docs/assumptions.md
+  h_b2efb286bda226 20-21
+docs/productionization.md
+  h_b2efb286bda226 62
+docs/design.md
+  h_b2efb286bda226 54
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "ffd868485906ef57f8f38771354a9392ee591686",
+  "prompts": {},
+  "humans": {
+    "h_b2efb286bda226": {
+      "author": "Kaviya T <kaviyat2703@gmail.com>"
+    }
+  }
+}
