@@ -12,10 +12,10 @@ The pipeline follows a  batch ETL flow:Ingest → Transform → Load →  Analyz
 
 ## Data Model
 
-Products
-Stores V1
-Stores V2
-TicketLines
+- Products
+- Stores V1
+- Stores V2
+- TicketLines
 
 ## Store Unification Approach
 
