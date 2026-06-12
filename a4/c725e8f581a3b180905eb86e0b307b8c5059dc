@@ -1,0 +1,14 @@
+docs/design.md
+  h_b2efb286bda226 15-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "a4c725e8f581a3b180905eb86e0b307b8c5059dc",
+  "prompts": {},
+  "humans": {
+    "h_b2efb286bda226": {
+      "author": "Kaviya T <kaviyat2703@gmail.com>"
+    }
+  }
+}
