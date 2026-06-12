@@ -14,8 +14,6 @@ The implementation focuses on modularity, testability, clear schemas and product
 
 ## Project Structure
 
-## Project Structure
-
 ```text
 schwarz-digits-data-engineering-challenge/
 │
@@ -27,6 +25,7 @@ schwarz-digits-data-engineering-challenge/
 │
 ├── docs/
 │   ├── assumptions.md
+│   ├── challenge_answers.md
 │   ├── design.md
 │   └── productionization.md
 │
@@ -42,8 +41,7 @@ schwarz-digits-data-engineering-challenge/
 │   └── test_transformations.py
 │
 ├── README.md
-├── requirements.txt
-└── challenge_answers.md
+└── requirements.txt
 ```
 
 ## Running the Pipeline
