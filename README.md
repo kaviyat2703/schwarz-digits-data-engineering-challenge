@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 ## Project Overview
 
@@ -15,15 +14,37 @@ The implementation focuses on modularity, testability, clear schemas and product
 
 ## Project Structure
 
-data/
-docs/
-output/
-src/
-tests/
-README.md
-requirements.txt
+## Project Structure
 
-## Running the Pipeline
+```text
+schwarz-digits-data-engineering-challenge/
+│
+├── data/
+│   ├── stores.csv
+│   ├── stores_v2.csv
+│   ├── ticket_line.csv
+│   └── products.json
+│
+├── docs/
+│   ├── assumptions.md
+│   ├── design.md
+│   └── productionization.md
+│
+├── output/
+│
+├── src/
+│   ├── main.py
+│   ├── schemas.py
+│   ├── transformations.py
+│   └── utils.py
+│
+├── tests/
+│   └── test_transformations.py
+│
+├── README.md
+├── requirements.txt
+└── challenge_answers.md
+```
 
 ## Running the Pipeline
 
@@ -59,6 +80,6 @@ output/
 
 Detailed assumptions, design considerations and productionization notes are documented under the docs/ directory.
 
-docs/assumptions.md
-docs/design.md
-docs/productionization.md
+- docs/assumptions.md
+- docs/design.md
+- docs/productionization.md
