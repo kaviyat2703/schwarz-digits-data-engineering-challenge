@@ -27,7 +27,7 @@ The challenge contains two versions of store reference data with different schem
     country       STRING
     version       INT
 
-- For records from the newer schema version, country information is extracted from the store_id prefix and the numeric store identifier is    standardized to match the legacy schema. <NOTE>
+- For records from the newer schema version, country information is extracted from the store_id prefix and the numeric store identifier is    standardized to keep the schema consistent.
 
 - The datasets are combined into a single unified store dataset.
 
