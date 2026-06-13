@@ -62,13 +62,13 @@ Examples:
 * Critical business identifiers are expected to be non-null. In a production environment, additional validation, monitoring and quarantine  mechanisms could be implemented to detect and handle records that violate these constraints.
 * Missing quantities are not automatically defaulted to zero, as null values may indicate data quality issues and should be validated  according to business requirements.
 
-## Data Retention and Archival - Future Enhancements
+## 6.Data Retention and Archival - Future Enhancements
 
 The current implementation retains only the latest output snapshot using overwrite semantics.
 
 If historical reporting or audit requirements exist, input and output datasets could be archived after successful processing. Retention periods would be defined based on business and compliance requirements. Historical outputs could also be stored in date-partitioned locations to support trend analysis and data recovery.
 
-## Scalability Considerations
+## 7.Scalability Considerations
 
 - The current implementation uses a full batch refresh approach, which is appropriate for the challenge requirements and dataset size.
 
@@ -76,7 +76,7 @@ If historical reporting or audit requirements exist, input and output datasets c
 
 - Depending on the storage technology and business requirements, merge/upsert strategies, partition-based processing, and change data capture (CDC) patterns could be introduced to improve performance and resource utilization while maintaining data consistency.
  
-## Local Development Considerations
+## 8.Local Development Considerations
 
 When running Spark locally on Windows, filesystem write operations may require additional Hadoop dependencies such as winutils.exe and HADOOP_HOME configuration.
 
