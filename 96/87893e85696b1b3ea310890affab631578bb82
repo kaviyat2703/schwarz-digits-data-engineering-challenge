@@ -1,0 +1,14 @@
+docs/productionization.md
+  h_b2efb286bda226 70-77
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "9687893e85696b1b3ea310890affab631578bb82",
+  "prompts": {},
+  "humans": {
+    "h_b2efb286bda226": {
+      "author": "Kaviya T <kaviyat2703@gmail.com>"
+    }
+  }
+}
