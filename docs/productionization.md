@@ -62,6 +62,12 @@ Examples:
 * Critical business identifiers are expected to be non-null. In a production environment, additional validation, monitoring and quarantine  mechanisms could be implemented to detect and handle records that violate these constraints.
 * Missing quantities are not automatically defaulted to zero, as null values may indicate data quality issues and should be validated  according to business requirements.
 
+## Storage Format Optimization
+
+For the purposes of this challenge, outputs are written in CSV format because the datasets are small and the results can be easily inspected and validated manually.
+
+In a production environment, analytical datasets would typically be stored in columnar formats such as Parquet or Delta. These formats provide better compression, schema management, and query performance, especially as data volumes increase. Delta Lake additionally provides capabilities such as ACID transactions, schema evolution, and merge/upsert support.
+
 ## 6.Data Retention and Archival - Future Enhancements
 
 The current implementation retains only the latest output snapshot using overwrite semantics.
