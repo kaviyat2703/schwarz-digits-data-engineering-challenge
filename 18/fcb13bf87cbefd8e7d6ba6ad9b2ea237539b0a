@@ -1,0 +1,14 @@
+src/main.py
+  h_b2efb286bda226 11,48-55,83,85,87
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "18fcb13bf87cbefd8e7d6ba6ad9b2ea237539b0a",
+  "prompts": {},
+  "humans": {
+    "h_b2efb286bda226": {
+      "author": "Kaviya T <kaviyat2703@gmail.com>"
+    }
+  }
+}
