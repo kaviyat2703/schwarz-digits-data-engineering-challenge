@@ -8,6 +8,7 @@ from transformations import (
 )
 import logging
 from pathlib import Path
+from pyspark.sql.functions import col
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
@@ -44,6 +45,14 @@ def main():
         .csv(str(DATA_DIR / "ticket_line.csv"))
     )
 
+    null_quantity_count = ticketline_df.filter(col("quantity").isNull()).count()
+
+    if null_quantity_count > 0:
+        logging.info(
+            f"Detected {null_quantity_count} records with null quantity values. "
+            "Records will be processed according to current business rules."
+        )
+
     products_df = spark.read.schema(products_schema).json(
         str(DATA_DIR / "products.json")
     )
@@ -71,8 +80,11 @@ def main():
 
     logging.info("Writing output datasets")
 
+    logging.info("Distinct Stores Selling Each Product")
     store_counts_df.show(truncate=False)
+    logging.info("Second Best Performing Stores")
     second_stores_df.show(truncate=False)
+    logging.info("Unique Stores Associated with Each Product Category")
     category_stores_df.show(truncate=False)
     # store_counts_df.write.mode("overwrite").csv(
     #     str(OUTPUT_DIR / "store_counts")
